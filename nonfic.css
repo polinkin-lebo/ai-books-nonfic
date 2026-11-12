@@ -13,3 +13,8 @@
 :is([data-node="4184:20646"],[data-node="4184:20647"],[data-node="4184:20676"],[data-node="4184:20682"])>.text{position:static!important;width:auto!important}
 :is([data-node="4184:20646"],[data-node="4184:20647"],[data-node="4184:20676"],[data-node="4184:20682"])>.node:not(.text){position:relative!important;left:auto!important;top:auto!important;width:auto!important;height:12px!important}
 [data-node="4176:4424"],[data-node="4184:20650"],[data-node="4184:20679"],[data-node="4184:20685"]{left:0!important;top:0!important;width:100%!important;height:12px!important}
+/* Updated subscription choices: flexible label and a right-aligned price. */
+:is([data-node="4176:4360"],[data-node="4176:4363"],[data-node="4176:4366"]){display:flex;align-items:flex-start;gap:8px;padding:14px 12px}
+:is([data-node="4176:4360"],[data-node="4176:4363"],[data-node="4176:4366"])>.text{position:static!important}
+:is([data-node="4176:4360"],[data-node="4176:4363"],[data-node="4176:4366"])>.text:first-child{flex:1;min-width:0;width:auto!important}
+:is([data-node="4176:4360"],[data-node="4176:4363"],[data-node="4176:4366"])>.text:last-child{flex:0 0 48px;text-align:right!important}
