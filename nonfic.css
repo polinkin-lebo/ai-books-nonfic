@@ -90,11 +90,10 @@
 .original-inset .original-reflection{color:#027d88}
 /* The book starts on the next screen instead of peeking above the home composer. */
 [data-id="4182:20480"]{margin-top:128px}
-.original-reader.quote-focus-mode{min-height:812px}
-.original-quote-view{padding:0 0 20px!important}
-.original-quote-view[hidden]{display:none!important}
 /* The persistent Lumen button stays painted above its glass surface. */
 #phone.hidden-controls:not(.home-mode):not(.editing) #spark.persistent-spark{display:flex;opacity:1;visibility:visible;pointer-events:auto;transform:none}
 #spark.persistent-spark{isolation:isolate}
 #spark.persistent-spark .lumen-head{z-index:1;opacity:1;visibility:visible;transform:translateZ(0)}
 #spark.persistent-spark .lumen-head img{opacity:1;visibility:visible}
+
+.quote-text-target{border-radius:3px;transition:background-color .4s}.quote-text-target.quote-highlight{background:rgba(37,143,172,.13)}
