@@ -18,3 +18,20 @@
 :is([data-node="4176:4360"],[data-node="4176:4363"],[data-node="4176:4366"])>.text{position:static!important}
 :is([data-node="4176:4360"],[data-node="4176:4363"],[data-node="4176:4366"])>.text:first-child{flex:1;min-width:0;width:auto!important}
 :is([data-node="4176:4360"],[data-node="4176:4363"],[data-node="4176:4366"])>.text:last-child{flex:0 0 48px;text-align:right!important}
+/* Figma 4204:21048: a single 343 × 95 glass header. */
+#bookbar{height:95px;display:flex;flex-direction:column;gap:8px;padding:9px 12px;justify-content:center;align-items:center}
+#bookbar[hidden]{display:none}
+#bookbar>.header-main-row{display:flex;align-items:center;gap:28px;width:319px;flex:none}
+.header-book-info{display:flex;align-items:center;gap:12px;flex:1;min-width:0}
+#bookbar #collapse{margin:0}
+#bookbar .book-label{flex:1;min-width:0;max-width:none}
+#bookbar .header-actions{display:flex;align-items:center;justify-content:flex-end;gap:8px;flex:none}
+.header-divider{display:block;flex:none;width:319px;height:1px}
+#bookbar>#recapPanel{position:static;width:315px;height:28px;flex:none;padding:0;display:flex;gap:8px;border-radius:0;background:none;box-shadow:none;backdrop-filter:none;-webkit-backdrop-filter:none;transform:none;transition:none}
+#bookbar>#recapPanel[hidden]{display:none}
+#recapPanel>span{flex:1;min-width:0}
+#bookbar #recapToggle{width:46px;height:28px;flex:0 0 46px;padding:2px;background:#2d2d2d}
+#bookbar #recapToggle[aria-checked=false]{background:#e9e9eb}
+#bookbar #recapPanel>span{font:400 16px/21px YS;color:#2d2d2d}
+#bookbar #recapToggle{justify-content:flex-end;align-items:center;border-radius:20px}
+#bookbar>#recapPanel{opacity:1}
