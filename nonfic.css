@@ -57,3 +57,17 @@
 .memo-rich p{margin:0 0 21px;font:inherit}
 .memo-rich p:last-child{margin-bottom:0}
 .memo-rich strong{font-weight:500}
+/* Quote cards grow with editable text and retain the source's minimum geometry. */
+.quote-section{height:auto!important;padding:20px}
+.quote-panel{position:relative!important;left:auto!important;top:auto!important;width:335px!important;height:auto!important;min-height:356px;display:flex;flex-direction:column;gap:16px;padding:16px 0}
+.quote-panel>.text{position:static!important;align-self:center}
+.quote-viewport{position:static!important;width:335px!important;height:auto!important}
+.quote-viewport>.horizontal-carousel{position:static!important;height:auto!important;align-items:stretch}
+.quote-card{height:auto!important;min-height:230px;display:flex;flex-direction:column;gap:12px;padding:20px 16px}
+.quote-card>.text{position:static!important;flex:none;width:235px!important;height:auto!important;min-height:0;overflow-wrap:break-word}
+.quote-card>.text:nth-child(2){min-height:116px!important}
+.quote-save{position:static!important;align-self:center;flex:none}
+/* Books numeral glyphs extend below their line box; do not crop the row. */
+[data-node="4177:4472"],[data-node="4177:4475"],[data-node="4177:4478"]{overflow:visible!important}
+.quote-section>.node{display:block;position:static!important;width:335px!important;height:auto!important;overflow:visible!important}
+.quote-save{position:relative!important;left:auto!important;top:auto!important}
