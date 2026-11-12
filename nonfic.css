@@ -5,3 +5,6 @@
 .source-book-link{color:inherit;text-decoration:none;display:block}#phone{background:var(--paper,#fff)}
 
 @font-face{font-family:Literata;src:url('fonts/Literata-Italic.ttf');font-style:italic;font-weight:100 900}.reader{padding-bottom:20px}.reader p:last-child{margin-bottom:0}
+
+/* Content replacement must not trigger the browser’s scroll anchoring. */
+#scroll,#feed{overflow-anchor:none}
