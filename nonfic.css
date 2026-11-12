@@ -93,3 +93,8 @@
 .original-reader.quote-focus-mode{min-height:812px}
 .original-quote-view{padding:0 0 20px!important}
 .original-quote-view[hidden]{display:none!important}
+/* The persistent Lumen button stays painted above its glass surface. */
+#phone.hidden-controls:not(.home-mode):not(.editing) #spark.persistent-spark{display:flex;opacity:1;visibility:visible;pointer-events:auto;transform:none}
+#spark.persistent-spark{isolation:isolate}
+#spark.persistent-spark .lumen-head{z-index:1;opacity:1;visibility:visible;transform:translateZ(0)}
+#spark.persistent-spark .lumen-head img{opacity:1;visibility:visible}
