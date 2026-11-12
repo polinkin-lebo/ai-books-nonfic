@@ -8,3 +8,8 @@
 
 /* Content replacement must not trigger the browser’s scroll anchoring. */
 #scroll,#feed{overflow-anchor:none}
+/* Chart labels, tracks and values occupy separate columns in every row. */
+:is([data-node="4184:20646"],[data-node="4184:20647"],[data-node="4184:20676"],[data-node="4184:20682"]){display:grid;grid-template-columns:74px minmax(0,1fr) 25px;column-gap:10px;align-items:center}
+:is([data-node="4184:20646"],[data-node="4184:20647"],[data-node="4184:20676"],[data-node="4184:20682"])>.text{position:static!important;width:auto!important}
+:is([data-node="4184:20646"],[data-node="4184:20647"],[data-node="4184:20676"],[data-node="4184:20682"])>.node:not(.text){position:relative!important;left:auto!important;top:auto!important;width:auto!important;height:12px!important}
+[data-node="4176:4424"],[data-node="4184:20650"],[data-node="4184:20679"],[data-node="4184:20685"]{left:0!important;top:0!important;width:100%!important;height:12px!important}
